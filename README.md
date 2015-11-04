@@ -12,7 +12,6 @@ Chrome以外のブラウザでは後述の ユーザースタイルシート拡�
 
 また、作成者は語彙力が無いです。導入方法など、どなたかわかりやすいように書きなおしてください…  
 PullReq.貰えればMergeします…
-<<<<<<< HEAD
 
 ## スクショ
 <a href="https://twitter.com/snowhite0804/status/661902660434567170"><img src="https://pbs.twimg.com/media/CS-M9fxVAAIyb07.png:orig"></a>
@@ -28,18 +27,6 @@ PullReq.貰えればMergeします…
 <a href="chrome://extensions/"><img src="https://img.shields.io/badge/ChromeExtensionsPage-Open-blue.svg"></a>  
 
 3. Chromeの拡張機能ページにlike2fire.crxをD&Dする
-=======
-
-## スクショ
-<a href="https://twitter.com/snowhite0804/status/661902660434567170"><img src="https://pbs.twimg.com/media/CS-M9fxVAAIyb07.png:orig"></a>
-
-## 使い方
-
-#### Chrome Extensionとしての導入
-
-Chromeで下のボタンをクリックしてDLされたものを実行すれば多分インスコできるかもしれません。  
-<a href="https://github.com/snowhite0804/like2fire/raw/master/like2fire.crx"><img src="https://img.shields.io/badge/like2fire-Download-red.svg"></a>
->>>>>>> origin/master
 
 
 わからなかったらTwitterの[snowhite0804](https://twitter.com/snowhite0804)に:heart:を投げて聞くのがいいかもしれないです。
@@ -52,14 +39,9 @@ Chromeで下のボタンをクリックしてDLされたものを実行すれば
 
 ## Related project
 
-<<<<<<< HEAD
 アイコン: [twitter/twemoji](https://github.com/twitter/twemoji)  
 本家様: [mzyy92/like2sushi](https://github.com/mzyy94/like2sushi)  
 通知変更: [gaogao-9/like2sushi](https://github.com/gaogao-9/like2sushi)
-=======
-[twitter/twemoji](https://github.com/twitter/twemoji)  
-[mzyy92/like2sushi](https://github.com/mzyy94/like2sushi)
->>>>>>> origin/master
 
 ## LICENSE
 
