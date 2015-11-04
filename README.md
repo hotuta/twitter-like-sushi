@@ -1,4 +1,4 @@
-# like2sushi
+# like2fire
 ![icon](icon.png)
 
 TwitterのFav:star:がLike:heart:に変えられてしまったのでFire:fire:に戻すやつ
