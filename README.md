@@ -23,8 +23,8 @@ PullReq.貰えればMergeします…
 1. 下のボタンをクリックして「like2fire.crx」をDLする  
 <a href="https://github.com/snowhite0804/like2fire/raw/master/like2fire.crx"><img src="https://img.shields.io/badge/like2fire-Download%20v0.0.2-red.svg"></a>  
 
-2. 下のボタンをクリックしてChromeの拡張機能ページを開く  
-<a href="chrome://extensions/"><img src="https://img.shields.io/badge/ChromeExtensionsPage-Open-blue.svg"></a>  
+2. 下のURLをアドレス欄にコピペしてChromeの拡張機能ページを開く  
+>chrome://extensions/  
 
 3. Chromeの拡張機能ページにlike2fire.crxをD&Dする
 
