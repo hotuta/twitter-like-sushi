@@ -14,19 +14,31 @@ Chrome以外のブラウザでは後述の ユーザースタイルシート拡�
 PullReq.貰えればMergeします…
 
 ## スクショ
-<a href="https://twitter.com/snowhite0804/status/661902660434567170"><img src="https://pbs.twimg.com/media/CS-M9fxVAAIyb07.png:orig"></a>
+<a href="https://twitter.com/snowhite0804/status/661902660434567170"><img src="https://pbs.twimg.com/media/CS-M9fxVAAIyb07.png:orig"></a>  
+TwitterWeb  
+
+
+
+<a href="https://twitter.com/snowhite0804/status/662074352511283200"><img src="http://pbs.twimg.com/media/CTApHVZUAAAU70R.png:orig"></a>  
+Tweetdeck
 
 ## 使い方
 
 #### Chrome Extensionとしての導入
 
 1. 下のボタンをクリックして「like2fire.crx」をDLする  
-<a href="https://github.com/snowhite0804/like2fire/raw/master/like2fire.crx"><img src="https://img.shields.io/badge/like2fire-Download%20v0.2-red.svg"></a>  
-
+<a href="https://github.com/snowhite0804/like2fire/raw/master/like2fire.crx"><img src="https://img.shields.io/badge/like2fire-Download%20v0.3-red.svg"></a>  
+  
+  
 2. 下のURLをアドレス欄にコピペしてChromeの拡張機能ページを開く  
 >chrome://extensions/  
+  
+  
+3. Chromeの拡張機能ページにlike2fire.crxをD&Dする  
+  
+  
+4. 更新するときは一度削除してもう一度インストールした方がいいかも
 
-3. Chromeの拡張機能ページにlike2fire.crxをD&Dする
 
 
 わからなかったらTwitterの[snowhite0804](https://twitter.com/snowhite0804)に:heart:を投げて聞くのがいいかもしれないです。
@@ -42,6 +54,7 @@ PullReq.貰えればMergeします…
 アイコン: [twitter/twemoji](https://github.com/twitter/twemoji)  
 本家様: [mzyy92/like2sushi](https://github.com/mzyy94/like2sushi)  
 通知変更: [gaogao-9/like2sushi](https://github.com/gaogao-9/like2sushi)
+TweetDeck対応: [S--Minecraft/tweetdeck.css](https://gist.github.com/S--Minecraft/a51dc7429171cbf029c6)
 
 ## LICENSE
 
