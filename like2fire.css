@@ -122,6 +122,29 @@ thanks, original and forked repository deveropers
 	padding: 0px !important;
 }
 
+/* Keyboard shortcut Fire action */
+#keyboard-shortcut-menu table:first-of-type tr:nth-of-type(2) td:nth-of-type(2){
+    visibility: hidden;
+    position: relative;
+}
+#keyboard-shortcut-menu table:first-of-type tr:nth-of-type(2) td:nth-of-type(2):after{
+    visibility: visible;
+    content: "あちち";
+    position: absolute;
+    left: 8px;
+}
+#keyboard-shortcut-menu table:last-of-type tr:nth-of-type(5) td:nth-of-type(2){
+    visibility: hidden;
+    position: relative;
+}
+#keyboard-shortcut-menu table:last-of-type tr:nth-of-type(5) td:nth-of-type(2):after{
+    visibility: visible;
+    content: "あちち";
+    position: absolute;
+    left: 8px;
+}
+
+
 
 /* Tweetdeck */
 

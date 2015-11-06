@@ -1,8 +1,8 @@
 {
 	"name": "like2fire for chrome extension",
-	"version": "0.4",
+	"version": "0.5",
 	"manifest_version": 2,
-	"description": "change the love button to fire button of Twitter",
+	"description": "change the like button to fire button of Twitter",
 	"web_accessible_resources": ["like2fire.css"],
 	"content_scripts": [
 		{
