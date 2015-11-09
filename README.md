@@ -23,18 +23,10 @@ Tweetdeck
 
 ## 使い方
 
-#### Chrome Extensionとしての導入
+#### Chrome Extensionとしての導入  
 
-1. 下のボタンをクリックして「like2fire.crx」をDLする  
-<a href="https://github.com/snowhite0804/like2fire/raw/master/like2fire.crx"><img src="https://img.shields.io/badge/like2fire-Download%20v0.5-red.svg"></a>  
-
-2. 下のURLをアドレス欄にコピペしてChromeの拡張機能ページを開く  
->chrome://extensions/  
-
-3. Chromeの拡張機能ページにlike2fire.crxをD&Dする  
-
-注意:ChromeStoreに登録していないため、Chromeを再起動したりすると不正に追加されたものとして無効化されます。  
-その際は再度インストールをお願いします。
+ChromeWebStoreに公開しました！！！  
+[like2fire on ChromeWebStore](https://chrome.google.com/webstore/detail/like2fire-for-chrome-exte/nmhgkadngngifhdehihbcpaagpophpma)  
 
 
 わからなかったらTwitterの[snowhite0804](https://twitter.com/snowhite0804)に:heart:を投げて聞くのがいいかもしれないです。
