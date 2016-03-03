@@ -1,6 +1,6 @@
 {
 	"name": "like2sushi for ChromeExtension",
-	"version": "0.6",
+	"version": "0.1",
 	"manifest_version": 2,
 	"description": "いいね♥をすしにします。",
 	"web_accessible_resources": ["like2sushi.css"],
