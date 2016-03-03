@@ -51,7 +51,7 @@ function overrideToastSushi(){
 			target[1].childNodes[_.toArray]
 				.filter(x=>(x.nodeType===Node.TEXT_NODE&&~x.nodeValue.indexOf("さんがいいねしました")))
 				.forEach(x=>{
-					x[_.node] = "さんが「すし」しました";
+					x[_.node] = "さんが「すし」にしました";
 				});
 		});
 	}
