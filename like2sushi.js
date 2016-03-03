@@ -1,16 +1,16 @@
 const $  = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
-const _  = FireQuery();
+const _  = SushiQuery();
 
 task(function*(){
 	// URLが変化した際に通知するmessageを登録する
 	overrideHistoryPushState();
 
 	// 右下に表示されるバルーンに対する上書き処理
-	overrideToastFire();
+	overrideToastSushi();
 
 	// 通知ページに表示されるいいねに対する上書き処理
-	overrideNotifyPageFire();
+	overrideNotifyPageSushi();
 
 	// お気に入り一覧ページに対する上書き処理
 	overrideFavoriteListPage();
@@ -35,7 +35,7 @@ function overrideHistoryPushState(){
 }
 
 // 右下に表示されるバルーンに対する上書き処理
-function overrideToastFire(){
+function overrideToastSushi(){
 	$("#spoonbill-outer")[_.createObserver]((mutations)=>{
 		for(var mutation of mutations){
 			update(mutation.addedNodes);
@@ -58,7 +58,7 @@ function overrideToastFire(){
 }
 
 // 通知ページに表示されるいいねに対する上書き処理
-function overrideNotifyPageFire(){
+function overrideNotifyPageSushi(){
 	// 既に表示されているリストの上書き
 	update($$("#stream-items-id .stream-item-content"));
 
@@ -185,7 +185,7 @@ function overrideFavoriteListPage(){
 			}, {attributes: false, childList: false, characterData: true});
 		},false);
 	}
-	
+
 	function update(){
 		if(location.pathname !== "/favorites") return;
 
