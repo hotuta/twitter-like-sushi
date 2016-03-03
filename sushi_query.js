@@ -1,22 +1,22 @@
-function FireQuery(target){
+function SushiQuery(target){
 	target = target || {};
-	target = FireHTMLElement(target);
-	target = FireNode(target);
-	target = FireNodeList(target);
-	
-	function FireHTMLElement(target){
+	target = SushiHTMLElement(target);
+	target = SushiNode(target);
+	target = SushiNodeList(target);
+
+	function SushiHTMLElement(target){
 		target = target || {};
-		
+
 		const S = {
 			find: Symbol("find"),
 			text: Symbol("text"),
 			html: Symbol("html"),
 			createObserver: Symbol("createObserver"),
 		};
-		
+
 		HTMLElement.prototype[S.find] = find;
 		HTMLElement.prototype[S.createObserver] = createObserver;
-		
+
 		Object.defineProperties(HTMLElement.prototype,{
 			[S.text]: {
 				get: function(){
@@ -35,40 +35,40 @@ function FireQuery(target){
 				}
 			},
 		});
-		
+
 		function find(target){
 			var output = this.querySelectorAll(target) || [];
 			return output;
 		}
-		
+
 		function text(msg){
 			if(!msg) return this.textContent;
 			this.textContent = msg;
 		}
-		
+
 		function html(msg){
 			if(!msg) return this.innerHTML;
 			this.innerHTML = msg;
 		}
-		
+
 		function createObserver(callback,option){
 			const observer = new MutationObserver(callback);
 			observer.observe(this, option);
 			return observer;
 		}
-		
+
 		Object.assign(target,S);
-		
+
 		return target;
 	}
-	
-	function FireNode(target){
+
+	function SushiNode(target){
 		target = target || {};
-		
+
 		const S = {
 			node: Symbol("node"),
 		};
-		
+
 		Object.defineProperties(Node.prototype,{
 			[S.node]: {
 				get: function(){
@@ -79,28 +79,28 @@ function FireQuery(target){
 				}
 			},
 		});
-		
+
 		function node(msg){
 			if(!msg) return this.nodeValue;
 			this.nodeValue = msg;
 		}
-		
+
 		Object.assign(target,S);
-		
+
 		return target;
 	}
-	
-	function FireNodeList(target){
+
+	function SushiNodeList(target){
 		target = target || {};
-		
+
 		const S = {
 			_iterator: Symbol.iterator,
 			toArray: Symbol("toArray"),
 		};
-		
+
 		// なんでNodeListにSymbol.iteratorが実装されてないんですかねぇ…（困惑）
 		NodeList.prototype[Symbol.iterator] = _iterator;
-		
+
 		Object.defineProperties(NodeList.prototype,{
 			[S.toArray]: {
 				get: function(){
@@ -109,21 +109,21 @@ function FireQuery(target){
 			},
 		});
 		NodeList.prototype[S.toArray] = toArray;
-		
+
 		function* _iterator(){
 			for(var i=0,iLen=this.length;i<iLen;++i){
 				yield this[i];
 			}
 		}
-		
+
 		function toArray(){
 			return Array.prototype.slice.call(this);
 		}
-		
+
 		Object.assign(target,S);
-		
+
 		return target;
 	}
-	
+
 	return target;
 }
